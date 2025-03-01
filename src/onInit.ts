@@ -216,7 +216,6 @@ const onPanelUpdate = () => {
 const eventTarget: any = htmlNode || document;
 eventTarget.addEventListener("panelupdate", onPanelUpdate);
 
-// Set initial chart option (empty until API data arrives)
 chart.setOption(pieOption);
 
 setInterval(() => {
